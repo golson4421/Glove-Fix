@@ -1,0 +1,47 @@
+.faq{
+     background: radial-gradient(#525252, #131313);; 
+}
+
+.collapsible {
+  background: radial-gradient(#525252, #131313);
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-bottom: 2px black solid;
+}
+
+.active, .collapsible:hover {
+  background-color: #777;
+  border: 1px red solid
+}
+
+.faqHeader{
+  border-bottom: black 2px solid;
+  padding: 2rem 0rem 2rem 0rem;
+  margin: 0 auto;
+  font-size: 4rem;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.answer{
+    font-size: 2rem;
+    padding: 2rem;
+    border-bottom: red 2px solid;
+    background-color: #555;
+}
+
+.coll-content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background: radial-gradient(#525252, #131313);
+  color: white;
+
+}

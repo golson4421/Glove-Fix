@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+
+    <title>GloveFix</title>
+  </head>
+  <a name="top"></a>
+  <body>
+      <!-- navagation -->
+      <div id="logoArea" class="nav-container">
+        <nav>
+          <h1 id="logo"><a href="#top">Glove Fix</a></h1>
+          <ul class="nav-links">
+            <li><a href="#servicesArea">Services</a></li>
+            <li><a href="#faqArea">FAQ</a></li>
+            <li><a class="contact" href="#contactArea">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="covid">
+            <p>
+              We are still open for business during COVID-19.  Gloves and all equipment are sanitized on arrival and before departure.
+            </p>
+        </div>
+      </div>
+      <!-- hero/main section -->
+
+      <div class="hero-image">
+        <div class="hero-text">
+          <h1 class="name-title">Glove Fix</h1>
+          <p class="tag-lines">Hereos get remembered, but legends and *gloves never die</p>
+          <p class="asterik">*When you use Glove Fix</p>
+
+          <button><a class="contact" href="#contactArea">Contact Us</a>
+          </button>
+        </div>
+      </div>
+  
+      <!-- <div class="hero">
+        <div class="glovefix">
+          <h1>Glove Fix</h1>
+        </div>
+        
+        <div class="right-side-text">
+        </div>
+
+        <div class="w3-content w3-section slideshow slides" style="max-width:500px">
+          <img class="mySlides w3-animate-fading" src="./img/old-glove-new.png" style="width:100%">
+          <img class="mySlides w3-animate-fading" src="./img/new-glove-new.png" style="width:100%">
+        </div>
+      </div> -->
+    
+    
+      <!-- services section -->
+      <div class="serviceDiv" id="servicesArea">
+        <h2 >Services</h2>
+ 
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Re-lacing</li>
+            <li>$20 half glove re-lace</li>
+            <li>$30 full glove re-lace</li>
+            <li>New Rawlings laces provided with purchase</li>
+            <li>Three colors included with purchase</li>
+          </ul>
+        </div>
+        
+        <div class="columns">
+          <ul class="price">
+            <li class="header">Padding</li>
+            <li>$10 padding removal</li>
+            <li>$20 adding palm padding to glove</li>
+            <li>$30 full glove repadding Domains</li>
+            <li>Wilson glove padding into gloves</li>
+          </ul>
+        </div>
+        
+        <div class="columns last-column">
+          <ul class="price">
+            <li class="header">Dying and Conditioning</li>
+            <li>$25 dollar inside re-dye</li>
+            <li>$40 full glove re-dye</li>
+            <li>$25 new glove conditioning and break-in</li>
+            <li>$10 Glove Fix mitt conditioner</li>
+          </ul>
+        </div>
+      </div>
+      <br>
+      <!-- faq section -->
+      <div class="faq" id="faqArea"> 
+        <p class="faqHeader">FAQs:</p>
+        <button type="button" class="collapsible"><p>How quickly will I get my glove back?</p></button>
+        <div class="coll-content">
+          <p class="answer">If you are able to drop the glove off at our shop, we can return it on the same day you drop it off.  Please reach out to use before you drop off our glove off so we can schedule a time.</p>
+          </div>
+          <button type="button" class="collapsible"><p>How much will it cost?</p></button>
+          <div class="coll-content">
+            <p class="answer">Basic pricing is listed above; however, if you do not see a service listed, please reach out and we will try to accomdate your needs as best as possible.</p>
+          </div>
+          <button type="button" class="collapsible"><p>How/Where do I send my glove to you?</p></button>
+        <div class="coll-content">
+          <p class="answer">You can use whatever mail delivery service you would like to get your glove out to our shop.  Our address is: 2625 Williamson Pl NW Dupont, WA 98327.  If you are in the area, feel free to drop off your equipemnt between 9AM-3PM PCT</p>
+        </div>
+
+        <button type="button" class="collapsible">
+          <p>My country is not listed on the contact form.  Can I still send in my glove?</p>
+        </button>
+        <div class="coll-content">
+          <p class="answer">We will try our best to help fix your glove! So far, we have worked on gloves from Australia, Canada, Meixco, and the U.S.  Let us know what country you are in, and we will give you an estimate on shipping costs. </p>
+        </div>
+
+        <button type="button" class="collapsible">
+          <p>Is there a team discount?</p>
+        </button>
+        <div class="coll-content">
+          <p class="answer">Yes! Send in three or more gloves and recieve and 10% discount on your total order.</p>
+        </div>
+      </div>
+        <!-- contact form section -->
+        <div class="contact-container" id="contactArea">
+          
+          <h3>Contact Glove Fix</h3>
+          <form name="gloveInquiry" action="https://submit-form.com/mM4RhBiv3pKJXD8vyDAv6">
+            <input type="hidden" 
+            name="_feedback.success.title" 
+            value="Thanks for submitting your request to Glove Fix.  We will be reaching out to you as soon as possible.  Click the link below if you would like to return to our website.  Cheers, Glove Fix!" 
+            />
+            <label for="fname">Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Please enter your name.." required oninvalid="this.setCustomValidity('Please enter your name here')"
+    oninput="this.setCustomValidity('')">
+            
+          <label for="lname">Email</label>
+          <input type="text" id="email" name="email" placeholder="Your enter your email.." required oninvalid="this.setCustomValidity('Please enter your email here')"
+    oninput="this.setCustomValidity('')">
+          
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="usa">USA</option>
+            <option value="usa">Mexico</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+          </select>
+          
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="How can GloveFix help today..." style="height:200px" required oninvalid="this.setCustomValidity('Please give us a short summary of how we can help')"
+    oninput="this.setCustomValidity('')"></textarea>
+          <input type="submit" value="Submit" onSubmit="console.log('Thank you for your inquiry.  We will be reaching out via email soon');">
+
+        </form>
+      </div>
+
+
+      <!-- footer section -->
+      <footer>
+        <div>
+          <ul class="footer">
+            <li>
+              <h1><a href="#top">Glove Fix</a></h1>
+            </li>
+            <li>
+              <a class="address" href="http://maps.google.com/?q=2625 Williamson Pl NW Dupont, WA 98327">2625 Williamson Pl NW Dupont, WA 98327</a>
+            </li>
+          </ul>
+        </div>
+      
+      </footer>
+  </body>
+  </html>
+  

@@ -1,0 +1,99 @@
+.home {
+  background: radial-gradient(#525252, #131313);
+}
+
+.nav-container {
+  background: rgb(7, 7, 7);
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+body{
+  background: radial-gradient(#525252, #131313)
+}
+
+nav {
+  width: 80%;
+  margin: auto;
+  min-height: 10vh;
+  padding: 2rem 0rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 2;
+    list-style: none;
+
+    li:hover {
+      text-decoration: underline;
+    }
+  
+  }
+
+
+  #logo {
+    flex: 2;
+  }
+  .contact {
+    background: #f54538;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+  }
+}
+.covid{
+  width: 100%;
+  background-color: red;
+  color: white;
+  position: sticky;
+  p{
+    font-size: 2rem;
+  }
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/OLDGLOVE.jpg");
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  .name-title{
+    font-size: 12rem;
+  }
+  .tag-lines{
+    font-size: 2rem;
+  }
+  .asterik{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+  }
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  margin-top: 6rem;
+  padding: 10px 25px;
+  color: white;
+  background-color: grey;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
